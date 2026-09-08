@@ -101,7 +101,7 @@ export default async function PotensiDetailPage({ params }: PageProps) {
             </div>
           </div>
 
-          {/* Potensi Lainnya - Card seperti di halaman utama */}
+          {}
           <div className="mt-16">
             <div className="flex items-center gap-3 mb-6">
               <CandiMotif className="h-6 w-24 text-emas-tua opacity-40" />

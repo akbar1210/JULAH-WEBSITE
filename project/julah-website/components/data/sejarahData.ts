@@ -1,8 +1,8 @@
 export const sejarahData = {
   judul: "Jejak Peradaban Julah",
-  subJudul: "Dari Cutak hingga Julah, Kisah Desa Bali Aga yang Hidup Selama Ribuan Tahun",
+  subJudul: "Dari Cutak hingga Julah, Kisah Desa Bali Mula yang Hidup Selama Ribuan Tahun",
 
-  pengantar: `Desa Julah adalah salah satu desa Bali Aga tertua di Bali Utara. Berdasarkan prasasti perunggu yang ditemukan di Pura Balai Agung dan temuan arkeologi, jejak peradaban di wilayah ini telah ada sejak ribuan tahun sebelum Masehi. Nama Julah sendiri konon berasal dari kata "majulah" yang berarti semangat untuk maju melawan musuh, merujuk pada perlawanan warga terhadap serangan bajak laut di masa lalu. Ada pula yang meyakini bahwa Julah berasal dari kata "iju" yang berarti jalan cepat dan "ulah" yang berarti usir, menggambarkan pengungsian warga saat diserang bajak laut.`,
+  pengantar: `Desa Julah adalah salah satu desa Bali Mula tertua di Bali Utara. Berdasarkan prasasti perunggu yang ditemukan di Pura Balai Agung dan temuan arkeologi, jejak peradaban di wilayah ini telah ada sejak ribuan tahun sebelum Masehi. Nama Julah sendiri konon berasal dari kata "majulah" yang berarti semangat untuk maju melawan musuh, merujuk pada perlawanan warga terhadap serangan bajak laut di masa lalu. Ada pula yang meyakini bahwa Julah berasal dari kata "iju" yang berarti jalan cepat dan "ulah" yang berarti usir, menggambarkan pengungsian warga saat diserang bajak laut.`,
 
   asalUsul: {
     judul: "Cutak, Cikal Bakal Julah",

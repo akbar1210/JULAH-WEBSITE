@@ -60,7 +60,7 @@ export default function Home() {
           id="galeri"
           eyebrow="Diambil langsung dari lapangan"
           title="Galeri Desa"
-          note="Grid foto ikon desa, kegiatan warga, dan panorama alam Julah — dapat diperbarui kapan saja oleh admin desa."
+          note="Grid foto ikon desa, kegiatan warga, dan panorama alam Julah."
         />
         
         <PetaSection />

@@ -69,7 +69,7 @@ export const budayaData = {
       },
       {
         nama: "Kesederhanaan",
-        deskripsi: "Upacara dilaksanakan dengan penuh kesederhanaan namun sarat makna, mencerminkan karakter masyarakat Bali Aga."
+        deskripsi: "Upacara dilaksanakan dengan penuh kesederhanaan namun sarat makna, mencerminkan karakter masyarakat Bali Mula."
       },
       {
         nama: "Pelestarian Tradisi",

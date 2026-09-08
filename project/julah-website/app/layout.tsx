@@ -18,9 +18,9 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Desa Julah — Bali Aga, Buleleng",
+  title: "Desa Julah",
   description:
-    "Portofolio Desa Julah, salah satu desa Bali Aga tertua di Buleleng, Bali. Sejarah, tokoh adat, galeri, dan potensi desa.",
+    "Portofolio Desa Julah, salah satu desa Bali Mula tertua di Buleleng, Bali. Sejarah, tokoh adat, galeri, dan potensi desa.",
   icons: {
     icon: [
       { url: "/julahlogo.png", sizes: "any", type: "image/png" },

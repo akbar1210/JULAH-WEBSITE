@@ -1,4 +1,3 @@
-// components/CandiMotif.tsx
 export default function CandiMotif({ className = "" }: { className?: string }) {
   return (
     <svg

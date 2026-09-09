@@ -1,4 +1,3 @@
-// components/Hero.tsx
 import Image from "next/image";
 import CandiMotif from "./CandiMotif";
 
@@ -30,14 +29,14 @@ export default function Hero() {
 
       <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center px-6 text-center">
         <span className="mb-4 font-body text-xs uppercase tracking-[0.3em] text-emas-muda">
-          Kabupaten Buleleng · Bali Aga
+          Kabupaten Buleleng · Bali Mula
         </span>
         <h1 className="font-display text-6xl italic text-putih md:text-8xl drop-shadow-lg">
           Julah
         </h1>
         <p className="mt-5 max-w-xl font-body text-base text-putih/90 md:text-lg drop-shadow-md">
-          Salah satu desa Bali Aga tertua, menjaga adat dan sejarah yang hidup
-          jauh sebelum era Majapahit — di lereng utara Buleleng.
+          Salah satu desa Bali Mula tertua, menjaga adat dan sejarah yang hidup
+          jauh sebelum era Majapahit di lereng utara Buleleng.
         </p>
         <a
           href="#sejarah"

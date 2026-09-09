@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";  // ← TAMBAHKAN useState
+import { useState, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 import { sejarahData } from "./data/sejarahData";
 

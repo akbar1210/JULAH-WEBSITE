@@ -1,4 +1,3 @@
-// components/Footer.tsx
 import CandiMotif from "./CandiMotif";
 
 export default function Footer() {
@@ -12,7 +11,7 @@ export default function Footer() {
             <h3 className="font-display text-xl italic text-putih">Desa Julah</h3>
             <p className="mt-3 font-body text-sm leading-relaxed text-putih/70">
               Portofolio promosi Desa Julah — sejarah, budaya, dan potensi
-              desa Bali Aga di Buleleng, Bali.
+              desa Bali Mula di Buleleng, Bali.
             </p>
           </div>
 

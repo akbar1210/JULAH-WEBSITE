@@ -1,59 +1,52 @@
-# Portofolio Desa Julah — Setup Awal
+Portofolio Desa Julah — Setup Awal
+Ini baru Step 1: bikin fondasi desain (design system) sama kerangka halamannya dulu. Belum ada database atau admin.
 
-Ini adalah **Step 1** dari perencanaan: fondasi desain (design system) + kerangka
-halaman. Belum ada database/admin — itu step berikutnya.
+Cara jalanin di laptop
+Install Node.js versi 18 ke atas kalau belum ada.
 
-## Cara menjalankan di laptop kamu
+Masuk ke folder ini lewat terminal, terus jalankan:
+bash
+npm install
+npm run dev
 
-1. Install [Node.js](https://nodejs.org) versi 18 ke atas (kalau belum ada).
-2. Buka folder ini di terminal, lalu jalankan:
-   ```bash
-   npm install
-   npm run dev
-   ```
-3. Buka `http://localhost:3000` di browser.
+bash
+npm install
+npm run dev
+Buka http://localhost:3000 di browser.
 
-## Struktur project
-
-```
+Isi project
+text
 app/
-  layout.tsx      -> font, metadata halaman
-  page.tsx         -> merangkai semua section jadi 1 halaman
-  globals.css      -> reset & aksesibilitas dasar
+  layout.tsx      -> font sama metadata halaman
+  page.tsx        -> nyusun semua section jadi satu halaman
+  globals.css     -> reset sama aksesibilitas dasar
 components/
-  Navbar.tsx        -> navbar sticky, transparan -> solid saat scroll
-  Hero.tsx          -> hero utama (PLACEHOLDER foto — lihat komentar di file)
+  Navbar.tsx        -> navbar sticky, transparan -> solid pas di-scroll
+  Hero.tsx          -> hero utama (foto masih PLACEHOLDER — cek komentar di file)
   Footer.tsx        -> footer multi-kolom
-  CandiMotif.tsx     -> elemen signature: siluet candi bentar (garis)
-tailwind.config.ts   -> semua warna & font didefinisikan di sini
-```
+  CandiMotif.tsx    -> elemen signature: siluet candi bentar (garis)
+tailwind.config.ts  -> semua warna sama font diatur di sini
+Warna & font yang dipakai
+Nama	Hex	Buat apa
+stone	#1B1B17	Background gelap (batu candi vulkanik)
+brass	#B08D57	Aksen utama (kuningan pratima/gamelan)
+lontar	#EDE6D3	Teks di atas gelap / background terang
+sawah	#3F4D3B	Aksen sekunder (hijau sawah)
+clay	#9C5B3C	Aksen tersier, dipakai dikit aja
+Font judul: Fraunces (italic). Font body: Work Sans.
 
-## Design tokens yang dipakai
+Yang perlu diganti abis wawancara & foto besok
+components/Hero.tsx — ganti div gradient placeholder jadi foto asli ikon desa (pakai <Image> dari next/image). Di file-nya udah ada komentar nandain bagian mana yang perlu diubah.
 
-| Nama | Hex | Dipakai untuk |
-|---|---|---|
-| `stone` | `#1B1B17` | Background gelap (batu candi vulkanik) |
-| `brass` | `#B08D57` | Aksen utama (kuningan pratima/gamelan) |
-| `lontar` | `#EDE6D3` | Teks di atas gelap / background terang |
-| `sawah` | `#3F4D3B` | Aksen sekunder (hijau sawah) |
-| `clay` | `#9C5B3C` | Aksen tersier, dipakai sangat sedikit |
+app/page.tsx — 5 section (Sejarah, Tokoh & Budaya, Galeri, Peta & Lokasi, Kabar Desa) masih teks generik. Ganti pakai konten asli kalau udah siap.
 
-Font display: **Fraunces** (italic, untuk judul). Font body: **Work Sans**.
+Foto buat galeri sebaiknya dikompres ke WebP dulu sebelum diupload. Bisa pakai squoosh.app — gratis, gak perlu install apa-apa.
 
-## Yang PERLU kamu ganti setelah wawancara & foto besok
+Belum masuk di step ini (nyusul)
+Login & role admin (Supabase Auth)
 
-1. **`components/Hero.tsx`** — ganti div gradient placeholder dengan foto asli
-   ikon desa (pakai `<Image>` dari `next/image`). Komentar di file sudah
-   menandai bagian yang perlu diubah.
-2. **`app/page.tsx`** — 5 section (`Sejarah`, `Tokoh & Budaya`, `Galeri`,
-   `Peta & Lokasi`, `Kabar Desa`) masih placeholder teks generik. Ganti
-   dengan konten asli begitu siap.
-3. Foto-foto untuk galeri sebaiknya dikompres ke format WebP sebelum
-   diupload (bisa pakai [squoosh.app](https://squoosh.app), gratis, tanpa install).
+Dashboard admin buat desa (upload galeri/berita)
 
-## Belum termasuk di step ini (menyusul)
+Peta interaktif (Google Maps embed)
 
-- Sistem login & role admin (Supabase Auth)
-- Dashboard admin untuk desa (upload galeri/berita)
-- Peta interaktif (Google Maps embed)
-- Deploy ke Vercel + custom domain
+Deploy

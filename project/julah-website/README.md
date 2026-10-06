@@ -32,7 +32,6 @@ sawah	#3F4D3B	Aksen sekunder (hijau sawah)
 clay	#9C5B3C	Aksen tersier, dipakai dikit aja
 Font judul: Fraunces (italic). Font body: Work Sans.
 
-Yang perlu diganti abis wawancara & foto besok
 components/Hero.tsx — ganti div gradient placeholder jadi foto asli ikon desa (pakai <Image> dari next/image). Di file-nya udah ada komentar nandain bagian mana yang perlu diubah.
 
 app/page.tsx — 5 section (Sejarah, Tokoh & Budaya, Galeri, Peta & Lokasi, Kabar Desa) masih teks generik. Ganti pakai konten asli kalau udah siap.

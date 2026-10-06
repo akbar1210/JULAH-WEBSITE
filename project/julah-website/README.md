@@ -5,13 +5,10 @@ Cara jalanin di laptop
 Install Node.js versi 18 ke atas kalau belum ada.
 
 Masuk ke folder ini lewat terminal, terus jalankan:
-bash
-npm install
-npm run dev
-
-bash
-npm install
-npm run dev
+```bash
+   npm install
+   npm run dev
+   ```
 Buka http://localhost:3000 di browser.
 
 Isi project
